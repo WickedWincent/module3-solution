@@ -1,5 +1,5 @@
 * {
-	font-family: Helvetica Ariel;
+	font-family: cursive;
 }
 
 /** HEADER **/
@@ -15,7 +15,7 @@
 }
 
 .navbar-brand h1 {
-	font-family: Helvetica;
+	font-family: Cursive;
 	position: absolute;
 	left: 0;
 	color: black;
@@ -34,8 +34,8 @@ text-decoration: none;
 .container {
 	padding-right: 0;
 	padding-left: 0;
-	height: 60px;
 }
+
 
 #chicken {
 	margin-top: -8px;
@@ -47,7 +47,7 @@ text-decoration: none;
 }
 
 #sushi {
-	margin-bottom: 1px;
+	margin-bottom: -7px;
 	background-color: #A9F5A9;
 }
 
@@ -68,11 +68,148 @@ text-decoration: none;
 	border: 1px solid black;
 }
 
-p {
-	margin-top: auto;
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
 }
+
+#menu {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: -15px;
+	margin-bottom: 25px;
+}
+
+/*********** Chicken Tile ***********/
+#chicken-tile {
+	background-color: #FF8000;
+	border: 2px solid black;
+
+}
+
+#chicken-tile span {
+	font-size: 1.1em;
+	text-align: center;
+
+}
+
+#chicken-tile h1 {
+	text-align: center;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+/******** Margins Chicken
+#chicken-tile, .col-sm-12 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+******/
+
+
+/*********** Beef Tile ***********/
+#beef-tile {
+	background-color: #F7819F;
+	border: 2px solid black;
+
+}
+
+#beef-tile span {
+	font-size: 1.1em;
+	text-align: center;
+
+}
+
+#beef-tile h1 {
+	text-align: center;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+/******** Margins Beef
+#beef-tile, .col-sm-12 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+*******/
+
+/*********** Sushi Tile ***********/
+#sushi-tile {
+	background-color: #A9F5A9;
+	border: 2px solid black;
+
+}
+
+#sushi-tile span {
+	font-size: 1.1em;
+	text-align: center;
+
+}
+
+#sushi-tile h1 {
+	text-align: center;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+/******** Margins Sushi
+#sushi-tile, .col-sm-12 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+******/
+
+
+
 
 /****** Small Devices *******/
 @media (max-width: 767px) {
+
+#chicken-tile {
+margin-left: 14%;
+margin-right: 14%;
+margin-bottom: 25px;
+}
+
+#beef-tile {
+margin-left: 14%;
+margin-right: 14%;
+margin-bottom: 25px;
+}
+
+#sushi-tile {
+margin-left: 14%;
+margin-right: 14%;
+margin-bottom: 25px;
+}
+
+}
+
+/****** Large Devices *******
+@media (min-width: 1200px) {
+
+#chicken-tile, .col-lg-3 {
+width:30:;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#beef-tile, .col-lg-3 {
+width:31%;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+#sushi-tile, .col-lg-3 {
+	width: 31%;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
 
 }
