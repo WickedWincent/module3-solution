@@ -1,8 +1,10 @@
-
+* {
+	font-family: Helvetica Ariel;
+}
 
 /** HEADER **/
 #header-nav {
-	background-color: purple;
+	background-color: #8A0886;
 	border-radius: 0;
 	border: 0;
 }
@@ -35,63 +37,39 @@ text-decoration: none;
 	height: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*** CONTAINER
-.container {
-padding-left: 0;
-padding-right: 0;
-padding-bottom: 0;
-margin: 0;
-border: solid black;
-width: 100%;
+#chicken {
+	margin-top: -8px;
+	background-color: #FF8000;
 }
 
-END OF CONTAINER****/
-
-
-/***** Come back Later
-.navbar-toggle {
-	position: absolute;
-	float:right;
-	right: 0;
-	top: 0;
-	margin-top: 12px;
-	border: 2px solid black;
-
+#beef {
+	background-color: #F7819F;
 }
-Come back Later*******/
 
-/*** HEADER
-.navbar-default {
-margin: 0;
-padding: 0;
+#sushi {
+	margin-bottom: 1px;
+	background-color: #A9F5A9;
 }
-.nav-brand h1 {
-	text-decoration: none;
-	color: black;
-	float: left;
-	margin-left: 10px;
-	padding: 5px 0 5px 5px; 
+
+#menu1 {
+	font-size: 1.6em;
 	font-weight: bold;
+	margin-top: -10px;
+
 }
 
-.navbar-header {
-	padding: 0;
+#menu2 {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: -10px;
 }
 
-END OF HEADER**********/
-#nav-list {
+#chicken-section {
+	border: 1px solid black;
+}
 
+p {
+	margin-top: auto;
 }
 
 /****** Small Devices *******/
